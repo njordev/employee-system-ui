@@ -1,75 +1,75 @@
-# Employee Management System: Frontend mit React, Vite und Tailwind CSS
+# Employee Management System: Frontend with React, Vite, and Tailwind CSS
 
-Dieses Repository enthält das Frontend einer Employee Management System-Anwendung, entwickelt mit React, Vite und Tailwind CSS. Es bietet eine benutzerfreundliche und reaktionsfähige Oberfläche für die Verwaltung von Mitarbeiterdaten und ist darauf ausgelegt, nahtlos mit einem separaten Backend zu kommunizieren.
+This repository contains the frontend of the Employee Management System application, developed using React, Vite, and Tailwind CSS. It offers a user-friendly and responsive interface for managing employee data and is designed to seamlessly integrate with a separate backend.
 
-## Funktionen des Frontends
+## Features of the Frontend
 
-### 1. **Komplette Funktionalität:**
-- Benutzeroberfläche zur Erstellung, Bearbeitung, Anzeige und Löschung von Mitarbeitern.
-- Reaktionsfähiges Design für Desktop- und Mobilgeräte.
-- Nahtlose Integration mit dem Backend über REST-APIs.
+### 1. **Complete Functionality:**
+- User interface for creating, editing, viewing, and deleting employees.
+- Responsive design for both desktop and mobile devices.
+- Smooth integration with the backend through REST APIs.
 
-### 2. **Technologien:**
-- **Frontend:** React mit Vite für eine schnelle Entwicklungsumgebung.
-- **Design:** Tailwind CSS für modernes und anpassbares Styling.
-- **Datenkommunikation:** Axios für API-Anfragen.
+### 2. **Technologies:**
+- **Frontend:** React with Vite for a fast development environment.
+- **Design:** Tailwind CSS for modern and customizable styling.
+- **Data Communication:** Axios for API requests.
 
 ---
 
-## Frontend-Entwicklung mit React, Vite und Tailwind CSS
+## Frontend Development with React, Vite, and Tailwind CSS
 
-### a. **Projektsetup**
-- Erstellung des Projekts mit Vite:
+### a. **Project Setup**
+- Create the project using Vite:
   ```bash
   npm create vite@latest employee-management-frontend --template react
   ```
-- Integration von Tailwind CSS:
-  - Installation von Tailwind CSS und seinen Peer-Abhängigkeiten:
+- Integrate Tailwind CSS:
+  - Install Tailwind CSS and its peer dependencies:
     ```bash
     npm install -D tailwindcss postcss autoprefixer
     npx tailwindcss init
     ```
-  - Konfiguration von `tailwind.config.js` und `index.css` gemäß der [offiziellen Dokumentation](https://tailwindcss.com/docs/installation).
+  - Configure `tailwind.config.js` and `index.css` as per the [official documentation](https://tailwindcss.com/docs/installation).
 
-### b. **Komponentenbasierte Architektur**
-- **Navbar-Komponente:** Navigationselement zur Steuerung der Seiten.
-- **AddEmployee-Komponente:** Formular zur Erstellung neuer Mitarbeiter mit validierter Eingabe.
-- **EmployeeList-Komponente:** Anzeige aller Mitarbeiter in einer übersichtlichen Tabelle.
+### b. **Component-Based Architecture**
+- **Navbar Component:** Navigation element for page control.
+- **AddEmployee Component:** Form for adding new employees with validated input.
+- **EmployeeList Component:** Displays all employees in a clear and structured table.
 
-### c. **Zustandsmanagement und API-Aufrufe**
-- **Zustandsmanagement:** Verwendung von `useState` und `useEffect` für dynamische Daten.
-- **API-Aufrufe:** Axios zur Kommunikation mit dem Backend. Zentralisierte Service-Klasse zur Verwaltung aller API-Interaktionen.
+### c. **State Management and API Calls**
+- **State Management:** Using `useState` and `useEffect` for dynamic data handling.
+- **API Calls:** Axios for backend communication. A centralized service class manages all API interactions.
 
-### d. **Routing und Navigation**
-- Integration von React Router für die Navigation zwischen verschiedenen Seiten:
-  - Mitarbeiterliste
-  - Mitarbeiter hinzufügen
-  - Mitarbeiter bearbeiten
+### d. **Routing and Navigation**
+- Integration of React Router for navigating between different pages:
+  - Employee List
+  - Add Employee
+  - Edit Employee
 
-### e. **Optimierungen**
-- Wiederverwendbare Komponenten für Konsistenz und Effizienz.
-- Responsive Design für unterschiedliche Bildschirmgrößen.
+### e. **Optimizations**
+- Reusable components for consistency and efficiency.
+- Responsive design for various screen sizes.
 
 ---
 
-## Setup und Installation
+## Setup and Installation
 
-### Voraussetzungen:
-- Node.js und npm
-- Vite für die Entwicklungsumgebung
+### Prerequisites:
+- Node.js and npm
+- Vite for the development environment
 
-### Schritte:
-1. **Repository klonen:**
+### Steps:
+1. **Clone the Repository:**
    ```bash
    git clone
    ```
-2. **Abhängigkeiten installieren:**
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
-3. **Entwicklungsserver starten:**
+3. **Start the Development Server:**
    ```bash
    npm run dev
    ```
-4. **Frontend im Browser öffnen:**
-   - Der Entwicklungsserver ist standardmäßig unter `http://localhost:5173` erreichbar.
+4. **Open the Frontend in the Browser:**
+   - The development server is available by default at `http://localhost:5173`.
